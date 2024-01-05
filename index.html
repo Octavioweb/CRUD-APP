@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, 
+    initial-scale = 1.0">
+    <title> Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+
+<div class = "header">
+    <h1>Aplicación CRUD</h1>
+</div>
+
+<body>
+    <div class = "input-card" style ="display:flex; justify-content: center;">
+        <card>
+            <text class = "card-title">Introduzca título</text>
+            <input type = "text" id="tituloTarjeta">
+            <text class = "card-body">Introduzca descripción</text>
+            <input type = "text" id = "descripcionTarjeta">
+            <button class = "card-button">Introduzca página web</button>
+            <input type = "text" id = "urlTarjeta">
+        </card>
+    
+    </div>
+    
+    <div class = "buttons" style="min-height: 10vh;">
+        <button id = "botonAgregar">Agregar</button>
+        <button id = "botonBorrarTodo">Borrar todo</button>
+    </div>
+
+    <div class = "stored-cards" id = "divCards">
+        <!-- <card>
+            <text class = "card-title">Titulo</text>
+            <text class = "card-body">asdBody</text>
+            <button class = "card-button">asd</button>
+        </card> -->
+    </div>
+    
+    <h2>Fin de pagina</h2>
+
+    <script src = "script_CRUD.js"></script>
+</body>
+</html>
